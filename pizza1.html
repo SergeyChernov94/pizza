@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/pizza1.css">
+</head>
+<body>
+    <img src="img/semga-s-s-bigx1-331-96787.png">
+
+    <!-- <div>1</div>
+    <div class="o-hide">2</div>
+    <div>3</div> -->
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <h1>
+        Что добавить в пиццу?
+    </h1>
+        <!-- общий блок для всех чекбоксов -->
+        <div class="check-group">
+          <!-- создаём подпись и указываем, к какому элементу она относится -->
+          <label for="myCheckbox01" class="checkbox">
+        
+            <!-- размещаем обычный чекбокс и задаём ему нужный класс -->
+            <!-- также указываем id, чтобы подпись смогла найти этот инбокс -->
+            <input class="checkbox__input" type="checkbox" id="myCheckbox01">
+            
+            <!-- готовим виртуальное пространство для рисования -->
+            <svg class="checkbox__icon" viewBox="0 0 22 22">
+              <!-- рисуем красивую рамку чекбокса -->
+              <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+              <!-- сразу делаем красивую галочку, но пока делаем её невидимой -->
+              <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+            </svg>
+        
+            <!-- подписываем наш чекбокс -->
+            <span class="checkbox__label">Оливки</span>
+          </label>
+        
+          <label for="myCheckbox02" class="checkbox">
+            <input class="checkbox__input" type="checkbox" id="myCheckbox02">
+            <svg class="checkbox__icon" viewBox="0 0 22 22">
+              <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+              <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+            </svg>
+            <span class="checkbox__label">Пепперони</span>
+          </label>
+        
+           <label for="myCheckbox03" class="checkbox">
+            <input class="checkbox__input" type="checkbox" id="myCheckbox03">
+            <svg class="checkbox__icon" viewBox="0 0 22 22">
+              <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+              <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+            </svg>
+            <span class="checkbox__label">Каперсы</span>
+          </label>
+        
+           <label for="myCheckbox04" class="checkbox">
+            <input class="checkbox__input" type="checkbox" id="myCheckbox04">
+            <svg class="checkbox__icon" viewBox="0 0 22 22">
+              <rect width="21" height="21" x=".5" y=".5" fill="#FFF" stroke="#006F94" rx="3" />
+              <path class="tick" stroke="#6EA340" fill="none" stroke-linecap="round" stroke-width="4" d="M4 10l5 5 9-9" />
+            </svg>
+            <span class="checkbox__label">Помидоры</span>
+          </label>
+        
+          <!-- считаем и выводим результаты -->
+          <div class="check-group__result">Выбрано:</div>
+        </div>
+        
+
+        <!-- БЛОК СО СБОРОМ ПИЦЦЫ -->
+        
+
+<container class='container'>
+    <div class="relative">
+    <img src="img/now-papka/testo-450g-bigx1-200-18230.png" alt="testo">
+
+    <!-- ingredients -->
+
+        <div class="ingredients">
+    
+        <img class="item" src="img/now-papka/luk-krasnyy--25g-bigx1-374-29210.png" alt="testimage">
+        
+        <img class="item" src="img/now-papka/ananasy-100g-bigx2-49-25103.png" alt="testimage">
+
+        <img class="item" src="img/now-papka/kartofelnye-dolki-bigx1-384-16765.png" alt="testimage">
+        
+        <img class="item" src="img/now-papka/marinovannye-ogurchiki-40g-bigx1-375-53261.png" alt="testimage">
+
+        </div>
+
+    </div> 
+</container>
+
+
+<label class="title">Красный лук
+    <input data-number="luk-krasnyy" type="checkbox" class="inputCheck">
+</label>
+<label class="title">Ананасы
+    <input data-number="ananasy" type="checkbox" class="inputCheck">
+</label>
+<label class="title">Картофельные дольки
+    <input data-number="kartofelnye-dolki" type="checkbox" class="inputCheck">
+</label>
+<label class="title">Маринованные огурчики
+    <input data-number="marinovannye-ogurchiki" type="checkbox" class="inputCheck">
+</label>
+
+
+<div id="colorBlya" class="colorClass">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, natus. Nobis id aspernatur sit similique consequuntur voluptatibus, velit voluptate reiciendis!
+    
+</div>
+
+
+<button class="btn-knopka">Кнопка</button>
+
+
+
+<script src="/pizza1.js"></script>
+</body>
+</html>

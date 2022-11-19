@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+}
+
+button {
+    border: none;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* .active {
+    background-color: green;
+} */
+
+input {
+    cursor: pointer;
+}
+
+.current-pizza {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;}
+
+.img-pizza {
+    margin: 30px 0;
+    height: 100%;
+}
+
+.current-pizza-item {
+
+}
+
+.current-pizza-item souce {
+    color: red;
+}
+
+.current-pizza-item mazik {
+    color: greenyellow;
+}
+
+.current-pizza-item chick {
+    color: blue;
+}
+
+.current-pizza-item fishe {
+    color: pink;
+}
+
+.constructor .section .item {
+    position: relative;
+    display: inline-block;
+    width: 162px;
+    min-height: 165px;
+    margin: 1px 6px 16px;
+    padding-bottom: 1px;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.constructor .section ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.ingredients section {
+    display: grid;
+    place-items: left;
+}
